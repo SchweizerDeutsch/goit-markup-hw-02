@@ -1,18 +1,5 @@
-/* цвет основного цвета #212121 */
-
-/* вторичный цвет текста rgba(117, 117, 117, 1)  */
-
-/* цвет логотипа accent rgba(0, 0, 0, 1) и logo: rgba(33, 150, 243, 1) */
-
-/* белый цвет #FFFFFF */
-
-/* акцентный цвет #2196F3 */
-
-/* контакты в футере rgba(255, 255, 255, 0.6) */
-
-/* вторичный цвет фона #F5F5F5 */
-
 :root {
+    lang="en";
     --primary-tex-color: rgba(117, 117, 117, 1);
     --title-tex-color: #212121;
     --accent-color: #2196F3;
@@ -221,6 +208,11 @@ ul {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
+}
+
+.link.secondary:hover,
+.link.secondary:focus {
+    color: var(--accent-color);
 }
 
 /* Work */
