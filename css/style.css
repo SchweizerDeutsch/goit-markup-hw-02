@@ -13,7 +13,7 @@ body {
   line-height: 1.71;
 }
 
-.logo {
+.logo-main {
   color: #000000;
   font-family: "Raleway";
   font-size: 26px;
@@ -165,17 +165,18 @@ ul {
   color: antiquewhite;
 }
 
-.link.secondary {
-  background: #f5f4fa;
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  cursor: pointer;
-}
-
 /* Footer */
+
+.logo-footer {
+  color: var(--white-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
 
 .footer {
   background-color: #2f303a;
@@ -183,7 +184,6 @@ ul {
 
 .address {
   font-style: normal;
-  color: var(--white-color);
   text-decoration: none;
 }
 
@@ -220,7 +220,7 @@ ul {
   color: var(--accent-color);
 }
 
-.button.primary.portfolio {
+.button-primary {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -228,9 +228,10 @@ ul {
   cursor: pointer;
 }
 
-.link.secondary:hover,
-.link.secondary:focus {
-  color: var(--accent-color);
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 /* Work */
