@@ -84,6 +84,11 @@ ul {
   text-decoration: none;
 }
 
+.contacts-address:hover,
+.contacts-address:focus {
+  color: var(--accent-color);
+}
+
 /* Hero */
 
 .main-hero {
@@ -154,6 +159,7 @@ ul {
 .button.primary {
   color: var(--white-color);
   background-color: var(--accent-color);
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
   letter-spacing: 0.06em;
@@ -162,7 +168,7 @@ ul {
 
 .button.primary:hover,
 .button.primary:focus {
-  color: antiquewhite;
+  background-color: #188ce8;
 }
 
 /* Footer */
@@ -221,6 +227,7 @@ ul {
 }
 
 .button-primary {
+  background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
